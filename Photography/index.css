@@ -1,0 +1,420 @@
+@import url('https://fonts.googleapis.com/css2?family=Oregano&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oregano&family=Playball&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* global css */
+
+.container{
+    width: 90%;
+    display: flex;
+}
+
+.btn{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: #ff8685;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor: pointer;
+    transition: .4s;
+    text-transform: uppercase;
+
+}
+
+.btn:hover{
+    background-color: #dc5c5b;
+    
+}
+
+
+/* header css */
+
+.header{
+    height: 110px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .3); 
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    color: white;
+     
+}
+
+/* logo css */
+.logo{
+    height: 110px;
+    width: 15%;
+    /* background-color: yellow; */
+    font-size: 80px;
+    text-align: center;
+    line-height: 110px;
+    font-family: 'Oregano', cursive;
+    color:#ff8685
+}
+
+/* nav css */
+
+.header_container{
+    justify-content: space-between;
+}
+
+.nav{
+    height: 110px;
+    width: 30%;
+    /* background-color: red; */
+}
+
+.nav>ul{
+    display: flex;
+
+}
+
+.nav>ul>li{
+    list-style-type: none;
+    width: 20%;
+    height: 110px;
+    line-height: 110px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor: pointer;
+    transition: .4s;
+    color:white;
+    font-size: 20px;
+    
+}
+
+.nav>ul>li:hover{
+    color:#ff8685;
+}
+
+/* css for banner */
+
+.banner{
+    height: 95vh;
+    width: 100%;
+    background-color: black;
+    background-image: url(./erik-mclean-9XK7vgoGSgc-unsplash.jpg);
+    overflow: hidden;
+    background-position: 0 -220px;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+
+}
+.padd{
+    padding: 20px;
+}
+
+.banner_details{
+    height: 300px;
+    width: 35%;
+    margin-left: 125px;
+    background-color: rgba(0, 0, 0, .15);
+    color: white;
+    display: flex;
+    align-items: center;
+
+}
+
+.banner_details h1{
+    font-size: 70px;
+    font-family: 'Playball', cursive;
+    line-height: 100px;
+    margin-bottom: 20px;
+}
+
+/* css for services */
+
+.services{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white
+    
+}
+
+.section_title{
+    font-family: 'Oregano', cursive;
+    font-size: 60px;
+}
+
+.services_container{
+    margin-top: 30px;
+    flex-wrap: wrap;
+
+}
+
+.services_details{
+    height: 500px;
+    width: 22%;
+    /* background-color: red; */
+    margin-top: 30px;
+    margin-left: calc(12%/5);
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    cursor: pointer;
+}
+
+.service_name{
+    height: 200px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .3);
+    font-size: 50px;
+    font-family: 'Oregano', cursive;
+    color: white;
+    padding-left: 20px;
+    transition: .5s;
+}
+
+.services_details:hover > .service_name{
+    height: 100%;
+}
+
+.services_details:nth-child(1){
+    background-image: url(https://images.unsplash.com/photo-1591604466107-ec97de577aff?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1051&q=80);
+    background-position: -100px 0px;
+}
+
+.services_details:nth-child(2){
+    background-image: url(https://images.unsplash.com/photo-1608790672275-309c02d888ff?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=634&q=80);
+
+}
+
+.services_details:nth-child(3){
+    background-image: url(https://images.unsplash.com/photo-1612803450086-5eb6d9ab28ab?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=80);
+
+}
+
+.services_details:nth-child(4){
+    background-image: url(https://images.unsplash.com/photo-1520936113839-69b3b2475037?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=701&q=80);
+
+}
+
+.services_details:nth-child(5){
+    background-image: url(https://images.unsplash.com/photo-1536500753960-8ba12bc3784d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=646&q=80);
+
+}
+
+.services_details:nth-child(6){
+    background-image: url(https://images.unsplash.com/photo-1550928431-ee0ec6db30d3?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80);
+
+}
+.services_details:nth-child(7){
+    background-image: url(https://images.unsplash.com/photo-1604917621956-10dfa7cce2e7?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=612&q=80);
+
+}
+
+.packages{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #cec8c8;
+
+}
+
+.packages_container{
+    margin-top: 30px;
+    flex-wrap: wrap;
+}
+
+.package{
+    height: 500px;
+    width: 22%;
+    background-color: white;
+    margin-top: 30px;
+    margin-left: calc(12%/5);
+    display: flex;
+    align-items: center;
+}
+
+.pack{
+    font-size: 50px;
+    font-family: 'Oregano', cursive;
+    
+}
+
+.pack_desc{
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: justify;
+}
+
+.duration{
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: justify;
+    font-weight: bold;
+    padding-top: 20px;
+
+}
+
+.price{
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: justify;
+    font-weight: bold;
+    padding-top: 20px;
+}
+
+.pack_btn{
+    margin-top: 20px;
+    /* width: 100%; */
+
+}
+
+
+.sample{
+    width: 100%;
+    display: flex;
+    padding-top: 50px;
+    align-items: center;
+    flex-direction: column;
+}
+
+.sample_container{
+    width: 95%;
+    flex-wrap: wrap;
+}
+
+.sample_css{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.sample_overlay{
+    width: 100%;
+    height: 500px;
+    background-color:rgba(0, 0, 0, .4);
+    transition: .4s;
+}
+
+.sample_overlay:hover{
+    background-color: rgba(0, 0, 0, 0);
+    
+}
+.sample_img:hover{
+    transform:scale(1.1);
+}
+
+.sample_img{
+    width: 20%;
+    height: 500px;
+    /* background-color: red; */
+    cursor: pointer;
+    background-size: cover;
+    background-position: center;
+    transition: 0.4s;
+}
+
+.sample_img:nth-child(1){
+    background-image: url(https://images.unsplash.com/photo-1537465784669-250467f4e691?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTc0fHxwZW9wbGUlMjBpbiUyMG5hdHVyZXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
+}
+.sample_img:nth-child(2){
+    background-image: url(https://images.unsplash.com/photo-1628336675362-bc82a2794f68?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80);
+}
+.sample_img:nth-child(3){
+    background-image: url(https://images.unsplash.com/photo-1628336653326-cacc84c507a7?ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwzM3x8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
+}
+.sample_img:nth-child(4){
+    background-image: url(https://images.unsplash.com/photo-1487622750296-6360190669a1?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTd8fG5hdHVyZXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
+}
+.sample_img:nth-child(5){
+    background-image: url(https://images.unsplash.com/photo-1628285437269-7890158ec3b1?ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxMDV8fHxlbnwwfHx8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
+}
+.sample_img:nth-child(5){
+    background-image: url(https://images.unsplash.com/photo-1627894564622-8debdd318e25?ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxNjl8fHxlbnwwfHx8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
+}
+.sample_img:nth-child(6){
+    background-image: url(https://images.unsplash.com/photo-1583397758707-927fca9208a9?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzN8fGluZGlhbiUyMHdlZGRpbmd8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
+}
+.sample_img:nth-child(7){
+    background-image: url(https://images.unsplash.com/photo-1571145628706-f4f246ce4877?ixid=MnwxMjA3fDB8MHxzZWFyY2h8OTJ8fHZhY2F0aW9ufGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
+}
+.sample_img:nth-child(8){
+    background-image: url(https://images.unsplash.com/photo-1619683060859-26de1af7a0ef?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzJ8fHdpbGQlMjBsaWZlfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
+}
+.sample_img:nth-child(9){
+    background-image: url(https://images.unsplash.com/photo-1543899161-d044e847c40f?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8bG92ZXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
+}
+.sample_img:nth-child(10){
+    background-image: url(https://images.unsplash.com/photo-1544155892-b2b6c64204fc?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTU2fHxwYXJ0eXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
+}
+
+.about{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about_container{
+    font-size: 20px;
+    line-height: 25px;
+    margin-top: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    text-align: justify;
+    display: inline;
+
+   
+}
+
+.high{
+    font-family: 'Oregano', cursive;
+    font-size: 30px;
+    color:#ff8685;
+    
+}
+
+
+.footer{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #524f4f;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.footer_container{
+    justify-content: space-between;
+}
+.footer_child{
+    height: 300px;
+    width: 25%;
+    /* background-color: red; */
+    font-family: 'Segoe UI';
+    color: white;
+    padding: 20px;
+    
+}
+
+.footer_child:nth-child(1){
+    font-size: 125px;
+    text-align: center;
+    line-height: 300px;
+    font-family: 'Oregano', cursive;
+    color:#ff8685
+}
+
+.footer_child:nth-child(2) p{
+    margin-top: 40px;
+    font-family: 'Segoe UI';
+}
