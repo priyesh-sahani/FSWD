@@ -1,0 +1,112 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.header{
+    height: 70px;
+    /* background-color: gray; */
+}
+.logo{
+    height: 70px;
+    width: 15%;
+    /* background-color: yellow; */
+    margin-left: 10%;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Segoe UI';
+    text-align: center;
+    color: #9e70e8;
+}
+.banner{
+    height: 75vh;
+    background-size: cover;
+    background-position-y: -250px;
+    background-image: url('./Images/banner.jpg');
+    width: 100%;
+    /* background-color: green; */
+}
+.banner_img{
+    width: 100%;
+}
+.services{
+    background-color: #eae2e2;
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-family: 'Segoe UI';
+    
+}
+.services>h1{
+    text-align: center;
+    font-size: 50px;
+    color: #9e70e8
+
+}
+.container{
+    width: 80%;
+    /* height: 20px; */
+    /* background-color: red; */
+    margin-left: 10%;
+    margin-top: 50px;
+    font-size: 0px;
+}
+.service{
+    /* height: 500px; */
+    width: 25%;
+    background-color: whitesmoke;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: calc(25%/4);
+    margin-top: 30px;
+}
+.service_img{
+    height: 250px;
+    width: 100%;
+    /* background-color: tomato; */
+}
+.service_img>img{
+    width: 100%;
+}
+.service_details{
+    padding: 20px;
+}
+.service_details>p{
+    margin-top: 10px;
+    text-align: justify;
+    color: grey;
+}
+.service_details>button{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 20px;
+    border: none;
+    font-size: 18px;
+    background-color:#9e70e8;
+    color: whitesmoke;
+    cursor: pointer;
+}
+.about{
+    /* background-color: turquoise; */
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    font-family: 'Segoe UI';
+    font-size: 30px;
+}
+.about>.container{
+    font-size: 20px;
+    text-align: justify;
+    line-height: 30px;
+}
+.map{
+    height: 400px;
+    width: 100%;
+    background-color: thistle;
+}
+.map>iframe{
+    height: 100%;
+    width: 100%;
+    border: none;
+}
