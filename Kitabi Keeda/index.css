@@ -45,6 +45,7 @@
     line-height: 110px;
     font-family: 'Carter One', cursive;
     color:#ff7010;
+    cursor: pointer;
 }
 
 .nav{
@@ -119,7 +120,7 @@
     display: flex;
     animation-name: movement;
     animation-iteration-count: infinite;
-    animation-duration: 25s;
+    animation-duration: 20s;
     animation-play-state: running;
 
 }
@@ -166,6 +167,7 @@
     }
 
 }
+
 
 .constant{
     height: 100%;
@@ -917,7 +919,6 @@
 }
 .about_author p{
     padding: 20px;
-    font-family: 'Kaushan Script', cursive;
     color: black;
     font-family: 'Poppins', sans-serif;
     font-size: 22px;
@@ -928,14 +929,20 @@
 /* ............... footer css................ */
 
 .footer{
-    height: 300px;
+    /* height: 300px; */
     width: 100%;
     background-color: #242526;
     display: flex;
-    padding-bottom: 40px
+    padding-bottom: 40px;
+    justify-content: center;
+}
+
+.foot_container{
+    width: 90%;
 }
 
 .footer_content{
+    height: 300px;
     height: 100%;
     width: 25%;
     display: flex;
@@ -1021,3 +1028,4 @@
     font-size: 20px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  
 }
+
